@@ -110,6 +110,7 @@ namespace Counter_Strike_Server
                 //NetworkDataManager.PrintMessage($"COUNT {totalConnection}");
                 //Get client connections
                 Client NewClient = new()
+                // Party NewParty = new()
                 {
                     currentClientTcp = client,
                     currentClientStream = client.GetStream()
@@ -192,6 +193,24 @@ namespace Counter_Strike_Server
 
                 UserInterfaceManager.PrintMessage($"A client connected, Id : {NewClient.id}, Clients count : {ClientCount + 1}");
             }
+        }
+        public static void KickAll()
+        {
+            for (int KickPlayerIndex = 0; KickPlayerIndex < allClients.Count; KickPlayerIndex++)
+            {
+                Call.Create("ENDGAME", allClients[KickPlayerIndex]);
+                allClients[KickPlayerIndex].RemoveClient(false);
+                KickPlayerIndex--;
+            }
+            
+        }
+        public static void VoiceWorn()
+        {
+            for (int PlayerIndex = 0; PlayerIndex < allClients.Count; PlayerIndex++)
+            {
+                Call.Create("CHANGMAP", allClients[PlayerIndex]);
+            }
+            
         }
     }
 }

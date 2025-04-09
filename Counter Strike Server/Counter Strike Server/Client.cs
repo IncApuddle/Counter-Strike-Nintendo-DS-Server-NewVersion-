@@ -47,7 +47,7 @@ namespace Counter_Strike_Server
         public DateTime respawnTimer = new(2000, 1, 1, 0, 0, 0);
         public int positionErrorCount = 0;
         public Party party;
-        public Vector3Int position = new(0, -100 * 4096, 0);
+        public Vector3Int position = new(0, -100 * 4096, 0); //4096
         public int angle = 0;
         public float cameraAngle = 128;
         public bool wantStartNow = false;
@@ -80,9 +80,9 @@ namespace Counter_Strike_Server
                 //Set spawn for player
                 if (party.allConnectedClients[i].team == TeamEnum.TERRORISTS)
                 {
-                    int x = (int)(MapManager.allMaps[(int)party.mapId].allTerroristsSpawns[TerroristsSpawn].x * 4096);
-                    int y = (int)(MapManager.allMaps[(int)party.mapId].allTerroristsSpawns[TerroristsSpawn].y * 4096);
-                    int z = (int)(MapManager.allMaps[(int)party.mapId].allTerroristsSpawns[TerroristsSpawn].z * 4096);
+                    int x = (int)(MapManager.allMaps[Globals.selectedMap].allTerroristsSpawns[TerroristsSpawn].x * 4096); // 4096
+                    int y = (int)(MapManager.allMaps[Globals.selectedMap].allTerroristsSpawns[TerroristsSpawn].y * 4096);
+                    int z = (int)(MapManager.allMaps[Globals.selectedMap].allTerroristsSpawns[TerroristsSpawn].z * 4096);
 
                     position = new Vector3Int(x, y, z);
                     angle = MapManager.allMaps[(int)party.mapId].terroristsSpawnsAngle;
@@ -91,9 +91,9 @@ namespace Counter_Strike_Server
                 }
                 else if (party.allConnectedClients[i].team == TeamEnum.COUNTERTERRORISTS)
                 {
-                    int x = (int)(MapManager.allMaps[(int)party.mapId].allCounterTerroristsSpawns[CounterTerroristsSpawn].x * 4096);
-                    int y = (int)(MapManager.allMaps[(int)party.mapId].allCounterTerroristsSpawns[CounterTerroristsSpawn].y * 4096);
-                    int z = (int)(MapManager.allMaps[(int)party.mapId].allCounterTerroristsSpawns[CounterTerroristsSpawn].z * 4096);
+                    int x = (int)(MapManager.allMaps[Globals.selectedMap].allCounterTerroristsSpawns[CounterTerroristsSpawn].x * 4096);//(int)party.mapId
+                    int y = (int)(MapManager.allMaps[Globals.selectedMap].allCounterTerroristsSpawns[CounterTerroristsSpawn].y * 4096);
+                    int z = (int)(MapManager.allMaps[Globals.selectedMap].allCounterTerroristsSpawns[CounterTerroristsSpawn].z * 4096);
 
                     position = new Vector3Int(x, y, z);
                     angle = MapManager.allMaps[(int)party.mapId].counterTerroristsSpawnsAngle;
@@ -165,7 +165,7 @@ namespace Counter_Strike_Server
                 }
 
                 // If the player pass through the map, teleport the player
-                if (newPos.y <= -5)
+                if (newPos.y <= -10000)
                 {
                     SetPlayerSpawn(false);
                 }
