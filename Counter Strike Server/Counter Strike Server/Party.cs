@@ -33,6 +33,7 @@ namespace Counter_Strike_Server
         public bool isPrivate;
         public string password;
 
+
         //Party data
         public PartyModeData partyMode;
         public bool partyStarted;
@@ -79,7 +80,7 @@ namespace Counter_Strike_Server
                 //Set spawn for player
                 if (client.team == TeamEnum.TERRORISTS)
                 {
-                    int x = (int)(MapManager.allMaps[(int)client.party.mapId].allTerroristsSpawns[TerroristsSpawn].x * 4096);
+                    int x = (int)(MapManager.allMaps[(int)client.party.mapId].allTerroristsSpawns[TerroristsSpawn].x * 4096); //4096
                     int y = (int)(MapManager.allMaps[(int)client.party.mapId].allTerroristsSpawns[TerroristsSpawn].y * 4096);
                     int z = (int)(MapManager.allMaps[(int)client.party.mapId].allTerroristsSpawns[TerroristsSpawn].z * 4096);
                     int angle = MapManager.allMaps[(int)client.party.mapId].terroristsSpawnsAngle;

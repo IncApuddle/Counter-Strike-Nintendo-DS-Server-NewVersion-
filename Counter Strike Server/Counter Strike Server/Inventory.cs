@@ -24,8 +24,8 @@ namespace Counter_Strike_Server
         public const int INVENTORY_EQUIPMENTS_START_POSITION = 7;
         public const int INVENTORY_C4_POSITION = 8;
         public const int INVENTORY_SIZE = 9;
-        public const int DEFAULT_COUNTERTER_TERRORIST_GUN = 6;
-        public const int DEFAULT_TERRORIST_GUN = 4;
+        public const int DEFAULT_COUNTERTER_TERRORIST_GUN = 2;
+        public const int DEFAULT_TERRORIST_GUN = 1;
 
         public const int KNIFE_ID = 0;
         public const int C4_ID = 28;

@@ -34,6 +34,9 @@ namespace Counter_Strike_Server
         public static DateTime roundChangeTime = new DateTime(2000, 1, 1, 0, 0, 0).AddSeconds(-1);
         public static DateTime quitPartyTime = new(2000, 1, 1, 0, 0, 20);
         public static DateTime startFullPartyWaitingTime = new(2000, 1, 1, 0, 0, 10);
+        
+        //Map Time
+        public static DateTime mapTime = new(2000, 1, 1, 0, Globals.MapMinuts, 0);
 
         public enum TextEnum
         {
@@ -83,6 +86,23 @@ namespace Counter_Strike_Server
         {
             while (true)
             {
+                //Map time
+                if(mapTime.TimeOfDay.Ticks > 0 && Globals.mapSwitch)
+                {
+                    mapTime = mapTime.AddSeconds(-1);
+                    // Console.ForegroundColor = ConsoleColor.White;
+                    // Console.WriteLine(mapTime);
+                }
+                else if(mapTime.TimeOfDay.Ticks <= 0)
+                {
+                    Globals.ChengeMap();
+                }
+
+                if(mapTime.Second == 15 && mapTime.Minute == 0)
+                {
+                    ConnectionManager.VoiceWorn();
+                }
+                
                 lock (allParties)
                 {
                     //For each party
@@ -93,7 +113,7 @@ namespace Counter_Strike_Server
 
                         if(currentParty.allConnectedClients.Count != 1)
                         {
-                            //Reduce timer from 1 second
+                            //Reduce timer by 1 second
                             currentParty.partyTimer = currentParty.partyTimer.AddSeconds(-1);
                         }
                         else
@@ -320,7 +340,27 @@ namespace Counter_Strike_Server
             NewParty.partyTimer = NewParty.partyMode.trainingTime;
             NewParty.loseCountCounterTerrorists = 0;
             NewParty.loseCountTerrorists = 0;
-            NewParty.mapId = mapEnum.DUST2;
+            if(Globals.selectedMap == 0)
+            {
+                NewParty.mapId = mapEnum.DUST2;
+            }
+            else if (Globals.selectedMap == 1)
+            {
+                NewParty.mapId = mapEnum.TUTORIAL;
+            }
+            else if (Globals.selectedMap == 2)
+            {
+                NewParty.mapId = mapEnum.DUST2_2x2;
+            }
+            else if (Globals.selectedMap == 3)
+            {
+                NewParty.mapId = mapEnum.AIM_MAP;
+            }
+            else if (Globals.selectedMap == 4)
+            {
+                NewParty.mapId = mapEnum.B2000;
+            }
+            
             NewParty.password = password;
             NewParty.isPrivate = isPrivate;
 

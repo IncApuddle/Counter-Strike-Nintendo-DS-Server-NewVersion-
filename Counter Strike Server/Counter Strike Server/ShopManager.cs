@@ -36,12 +36,12 @@ namespace Counter_Strike_Server
             allShopElements.Add(new Gun(new List<int>() { 1500, 750, 1500 }, false, 0, 40, 85, 0, 0, 1)); // Knife 0
 
             //Small guns
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 650, 53, 75, 7, 35, 0.81f)); // Desert Eagle 1
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 800, 43, 52, 30, 120, 0.75f)); // Dual Berettas / Elit 2
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 750, 24, 75, 20, 100, 0.885f)); // Five-SeveN 3
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 400, 24, 52, 20, 120, 0.75f)); // Glock-18 4
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 600, 31, 62.5f, 13, 52, 0.8f)); // P228 5
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 500, 29, 50, 12, 100, 0.79f)); // USP 6
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 400, 24, 52, 20, 120, 0.75f)); // Glock-18 1
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 500, 29, 50, 12, 100, 0.79f)); // USP 2
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 600, 31, 62.5f, 13, 52, 0.8f)); // P228 3
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 650, 53, 75, 7, 35, 0.81f)); // Desert Eagle 4
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 800, 43, 52, 30, 120, 0.75f)); // Dual Berettas / Elit 5
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, false, 750, 24, 75, 20, 100, 0.885f)); // Five-SeveN 6
 
             //Big guns
             allShopElements.Add(new Gun(new List<int>() { 900, 450, 900 }, true, 1700, 171 / 6, 50, 8, 48, 0.7f)); // M3 Check kill money 7
@@ -49,20 +49,20 @@ namespace Counter_Strike_Server
             allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 5750, 35, 75, 100, 200, 0.97f)); // M249 9 
 
             allShopElements.Add(new Gun(new List<int>() { 600, 300, 600 }, true, 1400, 28, 47.5f, 30, 100, 0.82f)); // MAC-10 10
-            allShopElements.Add(new Gun(new List<int>() { 600, 300, 600 }, true, 1500, 25, 50, 30, 120, 0.84f)); // MP5 Check kill money 11
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2350, 25, 75, 50, 100, 0.885f)); // P90 12
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 1250, 19, 50, 30, 120, 0.85f)); // TMP Check kill money 13
-            allShopElements.Add(new Gun(new List<int>() { 600, 300, 600 }, true, 1700, 29, 50, 25, 100, 0.75f)); // UMP-45 14
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2500, 35, 77.5f, 30, 90, 0.98f)); // AK-47 15
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 3500, 31, 70, 30, 90, 0.96f)); // AUG 16
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2250, 29, 70, 25, 75, 0.96f)); // FAMAS 17
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2000, 29, 77, 35, 90, 0.98f)); // Galil Check kill money 18
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 1250, 19, 50, 30, 120, 0.85f)); // TMP Check kill money 11
+            allShopElements.Add(new Gun(new List<int>() { 600, 300, 600 }, true, 1500, 25, 50, 30, 120, 0.84f)); // MP5 Check kill money 12
+            allShopElements.Add(new Gun(new List<int>() { 600, 300, 600 }, true, 1700, 29, 50, 25, 100, 0.75f)); // UMP-45 13
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2350, 25, 75, 50, 100, 0.885f)); // P90 14
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2250, 29, 70, 25, 75, 0.96f)); // FAMAS 15
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2000, 29, 77, 35, 90, 0.98f)); // Galil Check kill money 16
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2500, 35, 77.5f, 30, 90, 0.98f)); // AK-47 17
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2750, 74, 85, 10, 90, 0.98f)); // SSG 08 / Scout Check kill money 18
             allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 3100, 31, 70, 30, 90, 0.97f)); // M4A1 Check kill money 19
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 3500, 32, 70, 30, 90, 0.955f)); // SG 552 Check kill money 20
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 4200, 69, 72.5f, 30, 90, 0.98f)); // SG 550 Check kill money 21
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 2750, 74, 85, 10, 90, 0.98f)); // SSG 08 / Scout Check kill money 22
-            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 5000, 79, 82.5f, 20, 90, 0.98f)); // G3SG1 23
-            allShopElements.Add(new Gun(new List<int>() { 100, 50, 100 }, true, 4750, 115, 97.5f, 10, 30, 0.99f));  // AWP 24
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 3500, 31, 70, 30, 90, 0.96f)); // AUG 20
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 3500, 32, 70, 30, 90, 0.955f)); // SG 552 Check kill money 21
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 4200, 69, 72.5f, 30, 90, 0.98f)); // SG 550 Check kill money 22
+            allShopElements.Add(new Gun(new List<int>() { 100, 50, 100 }, true, 4750, 115, 97.5f, 10, 30, 0.99f));  // AWP 23
+            allShopElements.Add(new Gun(new List<int>() { 300, 150, 300 }, true, 5000, 79, 82.5f, 20, 90, 0.98f)); // G3SG1 24
 
             allShopElements.Add(new Grenade(new List<int>() { 300, 300, 300 }, new List<int>() { 1, 1, 1 }, 300, 0)); // HE Grenade 25
             allShopElements.Add(new Grenade(new List<int>() { 300, 300, 300 }, new List<int>() { 1, 1, 1 }, 300, 1)); // Smoke 26

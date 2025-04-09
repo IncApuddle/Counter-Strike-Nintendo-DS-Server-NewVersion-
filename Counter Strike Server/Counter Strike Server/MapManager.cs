@@ -30,6 +30,7 @@ namespace Counter_Strike_Server
             allMaps = JsonConvert.DeserializeObject<List<MapData>>(Reader.ReadToEnd());
             Console.WriteLine(allMaps[(int)mapEnum.DUST2].mapId);
             Console.WriteLine(allMaps[(int)mapEnum.TUTORIAL].mapId);*/
+            
             MapData newMap = new MapData();
             newMap.mapId = mapEnum.DUST2;
 
@@ -54,6 +55,101 @@ namespace Counter_Strike_Server
             newMap.counterTerroristsSpawnsAngle = 256;
 
             allMaps.Add(newMap);
+            newMap = new MapData();
+
+            newMap.mapId = mapEnum.TUTORIAL;
+
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, 0));
+
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(0, 0, 0));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(0, 0, 0));
+
+            newMap.AllBombsTriggersCollisions.Add(SetBombZone(-8.21f, -1.59f, 4, 4));
+
+            newMap.terroristsSpawnsAngle = 0;
+            newMap.counterTerroristsSpawnsAngle = 0;
+
+            allMaps.Add(newMap);
+            newMap = new MapData();
+            
+            newMap.mapId = mapEnum.DUST2_2x2;
+
+            newMap.allTerroristsSpawns.Add(new Vector3(-3, 6.43f, 65));
+            newMap.allTerroristsSpawns.Add(new Vector3(-6, 6.43f, 65));
+            newMap.allTerroristsSpawns.Add(new Vector3(-9, 6.43f, 65));
+            newMap.allTerroristsSpawns.Add(new Vector3(-3, 6.43f, 62.5f));
+            newMap.allTerroristsSpawns.Add(new Vector3(-6, 6.43f, 62.5f));
+            newMap.allTerroristsSpawns.Add(new Vector3(-9, 6.43f, 62.5f));
+
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(16, 0, -22));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(19.5f, 0, -22));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(23, 0, -22));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(16, 0, -19.5f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(19.5f, 0, -19.5f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(23, 0, -19.5f));
+
+            newMap.AllBombsTriggersCollisions.Add(SetBombZone(40.8f, -20.8f, 5, 5));
+
+            newMap.terroristsSpawnsAngle = 0;
+            newMap.counterTerroristsSpawnsAngle = 256;
+
+            allMaps.Add(newMap);
+            newMap = new MapData();
+
+            newMap.mapId = mapEnum.AIM_MAP;
+
+            newMap.allTerroristsSpawns.Add(new Vector3(4, 0, 16.2f));
+            newMap.allTerroristsSpawns.Add(new Vector3(-2.5f, 0, 16.2f));
+            newMap.allTerroristsSpawns.Add(new Vector3(12, 0, 16.2f));
+            newMap.allTerroristsSpawns.Add(new Vector3(4, 0, 18.5f));
+            newMap.allTerroristsSpawns.Add(new Vector3(-2.5f, 0, 18.5f));
+            newMap.allTerroristsSpawns.Add(new Vector3(12, 0, 18.5f));
+
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-3.7f, 0, -15.44f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-11.82f, 0, -15.44f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(2.71f, 0, -15.44f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-3.7f, 0, -17.74f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-11.82f, 0, -17.74f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(2.71f, 0, -17.74f));
+
+            newMap.AllBombsTriggersCollisions.Add(SetBombZone(22.22f, 0.12f, 4, 4));
+
+            newMap.terroristsSpawnsAngle = 0;
+            newMap.counterTerroristsSpawnsAngle = 256;
+
+            allMaps.Add(newMap);
+            newMap = new MapData();
+
+            newMap.mapId = mapEnum.B2000;
+
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, -14.3f));
+            newMap.allTerroristsSpawns.Add(new Vector3(-7, 0, -14.3f));
+            newMap.allTerroristsSpawns.Add(new Vector3(7, 0, -14.3f));
+            newMap.allTerroristsSpawns.Add(new Vector3(0, 0, -17.3f));
+            newMap.allTerroristsSpawns.Add(new Vector3(-7, 0, -17.3f));
+            newMap.allTerroristsSpawns.Add(new Vector3(7, 0, -17.3f));
+
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-0, 0, 14.3f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-7, 0, 14.3f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(7, 0, 14.3f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(0, 0, 17.3f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-7, 0, 17.3f));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(7, 0, 17.3f));
+
+            newMap.AllBombsTriggersCollisions.Add(SetBombZone(-1.76f, -28.5f, 4, 4));
+
+            newMap.terroristsSpawnsAngle = 256;
+            newMap.counterTerroristsSpawnsAngle = 0;
+
+            allMaps.Add(newMap);
+            newMap = new MapData();
         }
 
         /// <summary>
