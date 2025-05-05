@@ -1,0 +1,202 @@
+ERROR [01.02.2025 21:11:34] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:37:22] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:37:31] Connection 1 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 83
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:38:31] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:38:45] Connection 1 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 83
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:47:33] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:47:40] Connection 1 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 83
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:48:15] Connection 2 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:51:08] Connection 3 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 83
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [01.02.2025 23:53:07] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [02.02.2025 14:27:31] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [02.02.2025 14:46:53] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [02.02.2025 15:03:54] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [02.02.2025 15:07:22] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [02.02.2025 15:08:50] Connection 0 blocked (Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index'))
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Counter_Strike_Server.Client.SetPlayerSpawn(Boolean defineShopZone) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 94
+   at Counter_Strike_Server.Client.SetTeam(TeamEnum team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 336
+   at Counter_Strike_Server.Client.SetTeam(String team) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Client.cs:line 307
+   at Counter_Strike_Server.Router.RouteData(String[] tempDataSplit, Client client, Int32 dataLenght) 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\Router.cs:line 191
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 124
+
+ERROR [03.02.2025 17:55:37] Connection 5 blocked (Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.)
+   at System.Net.Sockets.Socket.ThrowObjectDisposedException()
+   at System.Net.Sockets.Socket.get_Available()
+   at Counter_Strike_Server.NetworkDataManager.CheckForClientData() 
+in E:\Mine\Counter-Strike-Nintendo-DS-main\Counter-Strike-Nintendo-DS-Server-1.0.1\Counter Strike Server\Counter Strike Server\NetworkDataManager.cs:line 72
+
