@@ -150,6 +150,30 @@ namespace Counter_Strike_Server
 
             allMaps.Add(newMap);
             newMap = new MapData();
+
+            newMap.mapId = mapEnum.MIRAGEA;
+
+            newMap.allTerroristsSpawns.Add(new Vector3(13, 2.6f, 41));
+            newMap.allTerroristsSpawns.Add(new Vector3(16, 2.6f, 41));
+            newMap.allTerroristsSpawns.Add(new Vector3(10, 2.6f, 41));
+            newMap.allTerroristsSpawns.Add(new Vector3(13, 2.6f, 44));
+            newMap.allTerroristsSpawns.Add(new Vector3(16, 2.6f, 44));
+            newMap.allTerroristsSpawns.Add(new Vector3(10, 2.6f, 44));
+
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-28, 0.15f, -29));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-25.5f, 0.15f, -29));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-30.5f, 0.15f, -29));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-28, 0.15f, -33));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-25.5f, 0.15f, -33));
+            newMap.allCounterTerroristsSpawns.Add(new Vector3(-30.5f, 0.15f, -33));
+
+            newMap.AllBombsTriggersCollisions.Add(SetBombZone(-36.61f, -0.39f, 5, 6.6f));
+
+            newMap.terroristsSpawnsAngle = 0;
+            newMap.counterTerroristsSpawnsAngle = 256;
+
+            allMaps.Add(newMap);
+            newMap = new MapData();
         }
 
         /// <summary>

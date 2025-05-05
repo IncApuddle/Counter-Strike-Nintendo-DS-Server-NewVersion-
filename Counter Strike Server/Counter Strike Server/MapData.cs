@@ -17,14 +17,15 @@ namespace Counter_Strike_Server
         TUTORIAL = 1,
         DUST2_2x2 = 2,
         AIM_MAP = 3,
-        B2000 = 4
+        B2000 = 4,
+        MIRAGEA = 5
     };
 
 
     public class Globals
     {   
 
-        public static int selectedMap = 4; // The map that's going to load on server
+        public static int selectedMap = 5; // The map that's going to load on server
         public static bool mapSwitch = true; //Turn on and off the map switch
         public static int MapPointer = 0; // Next map pointer
         public static bool PointerSwitch = true; // Gate for map switch

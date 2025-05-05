@@ -69,6 +69,13 @@ namespace Counter_Strike_Server
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.WriteLine("Map set to : "+ Globals.selectedMap +"\r\n");
                     }
+                    else if(userInput[1] == "5")
+                    {
+                        Globals.ChengeMap();
+                        Globals.selectedMap = 5;
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Map set to : "+ Globals.selectedMap +"\r\n");
+                    }
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -123,7 +130,11 @@ namespace Counter_Strike_Server
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.Write("4");
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine(") - $2000$\r\n");
+                    Console.Write(") - $2000$\r\n(");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("5");
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.WriteLine(") - Mirage (A site)\r\n");
                 }
 
                 else if (userInput[0] == "mapslot") //Adjust the queue of maps
@@ -293,7 +304,7 @@ namespace Counter_Strike_Server
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine("Now choose map :");
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.WriteLine("0 - Dust2,\r\n1 - Tutorial,\r\n2 - Dust2_2x2,\r\n3 - Aim_Map");
+                            Console.WriteLine("0 - Dust2,\r\n1 - Tutorial,\r\n2 - Dust2_2x2,\r\n3 - Aim_Map,\r\n4 - $2000$,\r\n5 - Mirage (A site)");
                             Console.ForegroundColor = ConsoleColor.White;
                             var input = Console.ReadLine();
                             int.TryParse(input, out Globals.mapNumber);
@@ -367,7 +378,7 @@ namespace Counter_Strike_Server
                            "stop : Stop the server.\n" +
                            "status [online/maintenance or 0/1] : Set the server status.\n" +
                            "disable/enable [logging/security/console] : Disable or enable a setting.\n" +
-                           "chm [1/2/3]... : Change map. \n" +
+                           "chm [1/2/3/4/5]... : Change map. \n" +
                            "maplist : Shows map queue and available maps with ID.\n" +
                            "mapswitch [on/off] : Turns on and off the map switch.\n" +
                            "maptime : Shows time left for the map.\n" +

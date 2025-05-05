@@ -360,6 +360,10 @@ namespace Counter_Strike_Server
             {
                 NewParty.mapId = mapEnum.B2000;
             }
+            else if (Globals.selectedMap == 5)
+            {
+                NewParty.mapId = mapEnum.MIRAGEA;
+            }
             
             NewParty.password = password;
             NewParty.isPrivate = isPrivate;
